@@ -71,19 +71,19 @@ Write in the terminal “cp” with the file you want to copy and add the final 
 
 #### Cloning fastai repository (Download the fastai files)
 
-Go to this url: https://github.com/fastai/fastai, and copy the git url. Click on the number 1 and 2 to have it on your clipboard.
+Go to this url: [https://github.com/fastai/fastai](https://github.com/fastai/fastai), and copy the git url. Click on the number 1 and 2 to have it on your clipboard.
 
 
 <img alt="clone" src="/images/terminal/git_copy_url.png" class="screenshot">
 
 Then, in order to clone the fastai repo, use the friendly command "git clone” and 
-then paste the url your terminal.
+then paste the url your terminal.(If you're using Colab, you need to add "!" before the command to use Shell)
 
 <img alt="paste" src="/images/terminal/git_clone_repo_.png" class="screenshot">
 
 #### Updating your fastai repository (Downloading the missing files)
 
-When your repo is up-to-date, you should see this message.
+Enter the "/fastai" directory you've just cloned, when your repo is up-to-date, you should see this message.
 
 <img alt="pull1" src="/images/terminal/git_pull_up_to_date.png" class="screenshot">
 
